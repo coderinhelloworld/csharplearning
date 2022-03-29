@@ -1,5 +1,6 @@
 ﻿using System;
 using csharpLearning.AbstractClass;
+using csharpLearning.VirtualClass;
 
 namespace csharpLearning
 {
@@ -7,7 +8,8 @@ namespace csharpLearning
     {
         static void Main(string[] args)
         {
-            AbstractMethod.ShowAbstractMethod();
+            //AbstractMethod.ShowAbstractMethod();
+            VirtualMethod.Virtual();
             Console.ReadKey();
             
       
